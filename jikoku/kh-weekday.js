@@ -61,14 +61,11 @@ no[47]=new bustime(21,15,"湘23");
 no[48]=new bustime(21,35,"湘23");
 no[49]=new bustime(21,50,"湘23");
 no[50]=new bustime(22,35,"湘23");
-
-
-
-no[61]=new bustime("--","--","");
-no[62]=new bustime("--","--","");
-no[63]=new bustime("--","--","");
-no[64]=new bustime("--","--","");
-no[65]=new bustime("--","--","");
+no[51]=new bustime("--","--","");
+no[52]=new bustime("--","--","");
+no[53]=new bustime("--","--","");
+no[54]=new bustime("--","--","");
+no[55]=new bustime("--","--","");
 
 
 
