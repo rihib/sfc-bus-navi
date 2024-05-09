@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112856107-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112856107-1');
+    </script>
+
+<meta charset="utf-8">
+<title>辻堂駅北口</title><link rel="shortcut icon" href="img/sta-t.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=yes" />
+	<script type="text/javascript" src="jikoku/sta-t-weekday.js"></script><link rel="stylesheet" type="text/css" href="css/style.css">     <!-- WebApp用 --> <meta name="mobile-web-app-capable" content="yes"> <meta name="apple-mobile-web-app-capable" content="yes">
+
+</head>
+
+<body>
+
+
+
+
+    <h1>時刻表</h1>
+    <h2>辻堂駅北口【平日】</h2>
+    ◎慶応大学方面
+    <br>
+    <br>
+
+    <a onclick="window.location.href = 'sta-t-saturday-j.html';" class="link">土曜の時刻表を表示</a>
+    <a onclick="window.location.href = 'sta-t-holiday-j.html';" class="link">日祝の時刻表を表示</a>
+    <br>
+<script type="text/javascript">
+
+	
+
+    
+
+	
+
+
+    cnt=0;
+    var hour;
+    var minute;
+    var cnt1=0;
+    var kioku;
+    while(no[cnt].bt_hour!="--"){
+        hour=no[cnt].bt_hour;
+        hour=("0"+hour).slice(-2);
+        minute=no[cnt].bt_minute;
+        minute=("0"+minute).slice(-2);
+        if(kioku!=hour){
+           cnt1=0;
+       }
+       if(cnt1==0){
+           document.write("<br><br><br>"+hour+"時台<br><br>")
+           cnt1=1;
+           kioku=hour;
+       }
+       
+           document.write(hour+":"+minute+"&nbsp;&nbsp;&nbsp;"+no[cnt].bt_kind+"<br>");
+        cnt++;
+    }
+	
+	
+</script>
+<br>
+<br>
+<br>
+
+
+		
+    
+        <table width="100%" border="1" bordercolor="#000000" style="border-collapse: collapse;">
+    <tr height="50px">
+        <td width="50%">
+            <a style="width:100%; height:100%; display:block;" onclick="window.location.href = 'ku-t-weekday-j.html';" class="undermenu">
+				<center><div style="height:50px; display: table-cell; vertical-align: middle;">慶応大学<br>（ロータリー）</div></center>
+            </a>
+        </td>
+         <td width="50%">
+            <a style="width:100%; height:100%; display:block;" onclick="window.location.href = 'kh-t-weekday-j.html';" class="undermenu">
+                <center><div style="height:50px; display: table-cell; vertical-align: middle;">慶応大学本館前</div></center>
+
+            </a>
+        </td>
+    </tr>
+    <tr height="50px">
+    	<td colspan="2">
+    	<a style="width:100%; height:100%; display:block;" onclick="window.location.href = 'sta-t-weekday.html';" class="undermenu">
+			<center><div style="height:50px; display: table-cell; vertical-align: middle;">カウントダウン</div></center>
+		</td>
+	</tr>
+	    <tr height="50px">
+    	<td colspan="2">
+    	<a style="width:100%; height:100%; display:block;" onclick="window.location.href = 'index.html';" class="undermenu">
+			<center><div style="height:50px; display: table-cell; vertical-align: middle;">トップ</div></center>
+		</td>
+	</tr>
+</table>
+    
+    
+    
+			
+			
+</body>
+</html>

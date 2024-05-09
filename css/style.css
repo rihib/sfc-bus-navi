@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.link{
+    color: #286be3;
+    text-decoration: underline;
+}
+
+
+
+
+/*下のメニューバーのデザイン*/
+
+
+a.undermenu:link {
+color: black;
+display:block;width:100%;height:100%;
+text-decoration:none;
+}
+a.undermenu:visited {
+color: black;
+display:block;width:100%;height:100%;
+text-decoration:none;
+}
+a.undermenu:active {
+background-color :lightgray;
+color: black;
+display:block;width:100%;height:100%;
+text-decoration:none;
+}
+a.undermenu:hover {
+text-decoration:none;
+background-color :lightgray;
+color: black;
+display:block;width:100%;height:100%;
+}
+
+
+
+
+
+.bus-stop-name{
+	font-size:30pt;
+	text-align:center;
+	border-bottom-style:solid;
+	padding-top:10px;
+	padding-bottom: 5px;
+	margin:0px;
+}
+.bus-stop-name-sub{
+	font-size:15pt;
+}	
+
+.bus-stop-info{
+	font-size:15pt;
+	margin:0px;
+	border-bottom-style:double;
+	text-align:center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+	.nokoritime{
+		font-size: 200%;
+		text-align: center;
+	}
+	.sentaku{
+		border: 1px;
+		border-style: solid;
+	}
+	.gototop{
+		margin-top: 3px;
+		text-align: center;
+		border: solid 1px;
+		clear:both; margin-top: 5px; height: 40px; display: flex; align-items: center; justify-content: center; width: 99%;
+	}
+   /* .gotocnt{
+		margin-bottom: 3px;
+		text-align: center;
+		border: solid 1px;
+		clear:both; margin-top: 69px; height: 40px; display: flex; align-items: center; justify-content: center; width: 99%;
+	}*/
+	
+	a.anothor-bs-name:link {
+color:#000000;
+text-decoration:none;
+}
+a.anothor-bs-name:visited {
+color:#000000;
+text-decoration:none;
+}
+a.anothor-bs-name:active {
+background-color: #9E9E9E;
+color:#000000;
+text-decoration:none;
+}
+a.anothor-bs-name:hover {
+color:#000000;
+text-decoration:none;
+}
+
+.a-bs-name-box{
+	float:left; width: 49%; height: 65px; border: 1px solid #000000; margin-right: 0.3%; display: flex; align-items: center; justify-content: center;
+}
+
+.a-bs-name-box-right{
+	float:left; width: 49%; height: 65px; border: 1px solid #000000; text-align: center; display: flex; align-items: center; justify-content: center;
+}
+
+h1 {
+border-bottom: solid 3px black;
+/*線の種類（実線） 太さ 色*/
+}
+
+
+
+
+
+	body{
+		font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif;
+	}
+	
+	@media screen and (min-width : 350px){
+    html{ font-size : 100%;} 
+}
+	
+	@media screen and (min-width : 500px){
+    html{ font-size : 150%;} 
+}
+ 
+@media screen and (min-width : 1024px) {
+    html{ font-size : 100%}; 
+}
